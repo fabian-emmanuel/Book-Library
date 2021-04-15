@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/decagon/Documents/AwesomeBookLibrary/AwesomeBookLibrary</OriginalElement>
+  <nodes>
+    <node x="214.81926406926408" y="0.0">enums.Level</node>
+    <node x="165.33116883116884" y="1071.0">models.LibraryTest</node>
+    <node x="342.7916666666667" y="227.0">models.User</node>
+    <node x="121.54166666666666" y="500.0">models.Library</node>
+    <node x="583.7916666666667" y="0.0">Main</node>
+    <node x="57.84848484848487" y="741.0">models.Library.Librarian</node>
+    <node x="0.0" y="282.0">models.Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.Library" target="enums.Level" relationship="TO_MANY">
+      <point x="-42.57142857142861" y="-94.5" />
+      <point x="227.97023809523805" y="479.0" />
+      <point x="219.06926406926405" y="479.0" />
+      <point x="219.06926406926405" y="187.0" />
+      <point x="259.0692640692641" y="187.0" />
+      <point x="-44.25" y="83.5" />
+    </edge>
+    <edge source="models.LibraryTest" target="models.Library" relationship="TO_ONE">
+      <point x="37.375" y="-182.5" />
+      <point x="352.20616883116884" y="1040.0" />
+      <point x="457.8484848484849" y="1040.0" />
+      <point x="457.8484848484849" y="710.0" />
+      <point x="345.04166666666663" y="710.0" />
+      <point x="74.5" y="94.5" />
+    </edge>
+    <edge source="models.Library" target="models.User" relationship="TO_MANY">
+      <point x="85.14285714285711" y="-94.5" />
+      <point x="355.68452380952374" y="479.0" />
+      <point x="445.7916666666667" y="479.0" />
+      <point x="445.7916666666667" y="469.0" />
+      <point x="489.7916666666667" y="469.0" />
+      <point x="49.0" y="105.5" />
+    </edge>
+    <edge source="models.User" target="enums.Level" relationship="TO_ONE">
+      <point x="-49.0" y="-105.5" />
+      <point x="391.7916666666667" y="197.0" />
+      <point x="219.06926406926405" y="197.0" />
+      <point x="219.06926406926405" y="187.0" />
+      <point x="259.0692640692641" y="187.0" />
+      <point x="-44.25" y="83.5" />
+    </edge>
+    <edge source="models.Library" target="enums.Level" relationship="DEPENDENCY">
+      <point x="-5.6843418860808015E-14" y="-94.5" />
+      <point x="270.54166666666663" y="479.0" />
+      <point x="254.75595238095232" y="479.0" />
+      <point x="254.75595238095232" y="207.0" />
+      <point x="334.56331168831167" y="207.0" />
+      <point x="334.56331168831167" y="187.0" />
+      <point x="347.569264069264" y="187.0" />
+      <point x="44.24999999999997" y="83.5" />
+    </edge>
+    <edge source="models.LibraryTest" target="models.User" relationship="TO_ONE">
+      <point x="112.12500000000001" y="-182.5" />
+      <point x="426.95616883116884" y="1050.0" />
+      <point x="468.8484848484849" y="1050.0" />
+      <point x="468.8484848484849" y="479.0" />
+      <point x="445.7916666666667" y="479.0" />
+      <point x="445.7916666666667" y="469.0" />
+      <point x="489.7916666666667" y="469.0" />
+      <point x="49.0" y="105.5" />
+    </edge>
+    <edge source="models.Library" target="models.User" relationship="TO_ONE">
+      <point x="127.71428571428572" y="-94.5" />
+      <point x="398.2559523809524" y="479.0" />
+      <point x="445.7916666666667" y="479.0" />
+      <point x="445.7916666666667" y="469.0" />
+      <point x="489.7916666666667" y="469.0" />
+      <point x="49.0" y="105.5" />
+    </edge>
+    <edge source="models.User" target="enums.Level" relationship="DEPENDENCY">
+      <point x="49.0" y="-105.5" />
+      <point x="489.7916666666667" y="207.0" />
+      <point x="334.56331168831167" y="207.0" />
+      <point x="334.56331168831167" y="187.0" />
+      <point x="347.569264069264" y="187.0" />
+      <point x="44.24999999999997" y="83.5" />
+    </edge>
+    <edge source="models.LibraryTest" target="models.Book" relationship="TO_ONE">
+      <point x="-112.125" y="-182.5" />
+      <point x="202.70616883116884" y="1050.0" />
+      <point x="47.34848484848487" y="1050.0" />
+      <point x="47.34848484848487" y="469.0" />
+      <point x="36.75" y="469.0" />
+      <point x="-36.75" y="50.5" />
+    </edge>
+    <edge source="models.Library" target="models.Book" relationship="TO_MANY">
+      <point x="-127.71428571428578" y="-94.5" />
+      <point x="142.82738095238088" y="479.0" />
+      <point x="47.34848484848487" y="479.0" />
+      <point x="47.34848484848487" y="469.0" />
+      <point x="36.75" y="469.0" />
+      <point x="-36.75" y="50.5" />
+    </edge>
+    <edge source="models.Library" target="models.User" relationship="DEPENDENCY">
+      <point x="42.571428571428555" y="-94.5" />
+      <point x="313.1130952380952" y="469.0" />
+      <point x="430.0416666666667" y="469.0" />
+      <point x="430.0416666666667" y="459.0" />
+      <point x="391.7916666666667" y="459.0" />
+      <point x="-49.0" y="105.5" />
+    </edge>
+    <edge source="models.Library.Librarian" target="models.User" relationship="DEPENDENCY">
+      <point x="113.0" y="-139.0" />
+      <point x="340.3484848484849" y="720.0" />
+      <point x="430.0416666666667" y="720.0" />
+      <point x="430.0416666666667" y="459.0" />
+      <point x="391.7916666666667" y="459.0" />
+      <point x="-49.0" y="105.5" />
+    </edge>
+    <edge source="models.Library" target="models.Book" relationship="DEPENDENCY">
+      <point x="-85.1428571428572" y="-94.5" />
+      <point x="185.39880952380946" y="469.0" />
+      <point x="93.89935064935065" y="469.0" />
+      <point x="93.89935064935065" y="459.0" />
+      <point x="110.25" y="459.0" />
+      <point x="36.75" y="50.5" />
+    </edge>
+    <edge source="models.LibraryTest" target="models.Library.Librarian" relationship="TO_ONE">
+      <point x="-37.375" y="-182.5" />
+      <point x="277.45616883116884" y="1050.0" />
+      <point x="227.34848484848487" y="1050.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="models.Library.Librarian" target="models.Library" relationship="INNER_CLASS">
+      <point x="0.0" y="-139.0" />
+      <point x="227.34848484848487" y="720.0" />
+      <point x="196.04166666666666" y="720.0" />
+      <point x="-74.5" y="94.5" />
+    </edge>
+    <edge source="models.Library.Librarian" target="models.Book" relationship="DEPENDENCY">
+      <point x="-113.0" y="-139.0" />
+      <point x="114.34848484848487" y="720.0" />
+      <point x="93.89935064935065" y="720.0" />
+      <point x="93.89935064935065" y="459.0" />
+      <point x="110.25" y="459.0" />
+      <point x="36.75" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="381.0" y="718.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
